@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" width="480" height="300">
+  <title>Ilustrasi halaman toko bunga Flowera dengan kisi kartu produk</title>
+  <defs>
+    <g id="bloom">
+      <circle cx="-10" cy="-10" r="5.5" fill="#a5b4fc"/>
+      <circle cx="10" cy="-10" r="5.5" fill="#a5b4fc"/>
+      <circle cx="-10" cy="10" r="5.5" fill="#a5b4fc"/>
+      <circle cx="10" cy="10" r="5.5" fill="#a5b4fc"/>
+      <circle cx="0" cy="0" r="8" fill="#818cf8"/>
+    </g>
+    <g id="pcard">
+      <rect x="0" y="0" width="120" height="52" rx="8" fill="#f2f2f3"/>
+      <use href="#bloom" x="26" y="26"/>
+      <rect x="46" y="14" width="58" height="7" rx="3.5" fill="#666666"/>
+      <rect x="46" y="26" width="36" height="7" rx="3.5" fill="#c9c9c9"/>
+    </g>
+  </defs>
+  <rect width="480" height="300" fill="#f7f7f7"/>
+  <rect x="30" y="26" width="420" height="248" rx="12" fill="#ffffff" stroke="#e5e5e5" stroke-width="1.5"/>
+  <path d="M30 38a12 12 0 0 1 12-12h396a12 12 0 0 1 12 12v20H30z" fill="#f2f2f3"/>
+  <circle cx="50" cy="45" r="7" fill="#4f46e5"/>
+  <rect x="64" y="41" width="50" height="8" rx="4" fill="#666666"/>
+  <rect x="272" y="40" width="56" height="10" rx="5" fill="#c9c9c9"/>
+  <rect x="338" y="40" width="56" height="10" rx="5" fill="#e5e5e5"/>
+  <rect x="404" y="40" width="22" height="10" rx="5" fill="#4f46e5"/>
+  <rect x="46" y="72" width="140" height="12" rx="6" fill="#111111"/>
+  <rect x="46" y="92" width="100" height="8" rx="4" fill="#c9c9c9"/>
+  <rect x="46" y="110" width="58" height="18" rx="9" fill="#4f46e5"/>
+  <use href="#pcard" x="46" y="146"/>
+  <use href="#pcard" x="180" y="146"/>
+  <use href="#pcard" x="314" y="146"/>
+  <use href="#pcard" x="46" y="208"/>
+  <use href="#pcard" x="180" y="208"/>
+  <use href="#pcard" x="314" y="208"/>
+</svg>

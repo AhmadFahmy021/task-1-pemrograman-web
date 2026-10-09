@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <title>Ilustrasi avatar Fahmy</title>
+  <defs>
+    <linearGradient id="avatarGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#818cf8"/>
+    </linearGradient>
+    <clipPath id="avatarClip">
+      <circle cx="100" cy="100" r="78"/>
+    </clipPath>
+  </defs>
+  <rect width="200" height="200" fill="#f7f7f7"/>
+  <circle cx="100" cy="100" r="78" fill="url(#avatarGradient)"/>
+  <g clip-path="url(#avatarClip)">
+    <circle cx="100" cy="80" r="27" fill="#ffffff" opacity="0.93"/>
+    <path d="M44 192a56 56 0 0 1 112 0z" fill="#ffffff" opacity="0.93"/>
+  </g>
+</svg>
